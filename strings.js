@@ -110,3 +110,7 @@ console.log(word.replaceAll(patter,"n"));
 
 const str1  = "Js is most useful programming language";
 console.log(str1.indexOf("u",16));
+
+
+const sente = "Normal is good";
+console.log(sente.lastIndexOf("o",3));
