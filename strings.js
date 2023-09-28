@@ -92,3 +92,4 @@ const runningSum = (nums,sum = 0) => nums.map(i => sum += i);
 let sentence  = "i am learning js";
 console.log(sentence.length);
 console.log(sentence.charAt(4));
+console.log(sentence.replace('i am','we are'));
