@@ -93,3 +93,6 @@ let sentence  = "i am learning js";
 console.log(sentence.length);
 console.log(sentence.charAt(4));
 console.log(sentence.replace('i am','we are'));
+const text = "Sanjay is friend of Lucky,Lucky is friend of Vinay";
+let pattern = /Lucky/g;
+console.log(text.replace(pattern,'Lakshmikant'));
