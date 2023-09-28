@@ -93,6 +93,12 @@ let sentence  = "i am learning js";
 console.log(sentence.length);
 console.log(sentence.charAt(4));
 console.log(sentence.replace('i am','we are'));
-const text = "Sanjay is friend of Lucky,Lucky is friend of Vinay";
-let pattern = /Lucky/g;
-console.log(text.replace(pattern,'Lakshmikant'));
+const text = "Sanjay is friend of lucky,LUcky is friend of Vinay";
+// let pattern = /Lucky/gi;
+// console.log(text.replace(pattern,'Lakshmikanth'));
+
+const num = 'Random Digit : 3';
+const random = ()=>{
+    return Math.floor(Math.random()*10)
+}
+console.log(num.replace(pattern,random));
