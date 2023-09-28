@@ -101,4 +101,12 @@ const num = 'Random Digit : 3';
 const random = ()=>{
     return Math.floor(Math.random()*10)
 }
+const pattern = "/d/"
 console.log(num.replace(pattern,random));
+
+const word = "india won World-cup";
+const patter = /w/gi
+console.log(word.replaceAll(patter,"n"));
+
+const str1  = "Js is most useful programming language";
+console.log(str1.indexOf("u",16));
