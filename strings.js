@@ -116,3 +116,6 @@ const sente = "Normal is good";
 console.log(sente.lastIndexOf("o",3));
 console.log(sente.startsWith("Normal"));
 console.log(sente.endsWith("is",9));
+console.log(sente.includes("sizw"));
+console.log(sente.repeat(2));
+console.log(sente.charAt(5));
