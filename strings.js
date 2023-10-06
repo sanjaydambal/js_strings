@@ -94,8 +94,8 @@ console.log(sentence.length);
 console.log(sentence.charAt(4));
 console.log(sentence.replace('i am','we are'));
 const text = "Sanjay is friend of lucky,LUcky is friend of Vinay";
-// let pattern = /Lucky/gi;
-// console.log(text.replace(pattern,'Lakshmikanth'));
+let pattern1 = /Lucky/gi;
+ console.log(text.replace(pattern1,'Lakshmikanth'));
 
 const num = 'Random Digit : 3';
 const random = ()=>{
@@ -119,3 +119,14 @@ console.log(sente.endsWith("is",9));
 console.log(sente.includes("sizw"));
 console.log(sente.repeat(2));
 console.log(sente.charAt(5));
+console.log(sente.substring(0,sente.length));
+console.log(sente.padStart(25,"*"));
+
+const str2 = "i am joining as software developer in software company";
+const rep = /software/;
+const res = str2.match(rep);
+console.log(res);
+const str3 = "My name is Albert. YOUR NAME is Soyuj.";
+const re = /name\sis\s[a-zA-Z]+\./gi;
+const result = str3.match(re);
+console.log(result);
